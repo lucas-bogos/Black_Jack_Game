@@ -1,0 +1,52 @@
+<!--Namegame: BlackJack-->
+<!--Developer: Lucas Bogos-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack-Game</title>
+    <link rel="stylesheet" type="text/css" href="Rules.css">
+</head>
+<body>
+    <div class="container-">
+        <h1>BlackJack</h1>
+        <h3><span id="blackjack_result">Let's play!</span></h3>
+    
+    <!--First div, when have a box your for to play-->
+        <div id="your-box">
+            <h3>You: <span id="your-blackjack-result">0</span></h3>
+        </div>
+    <!--Second div, when have a box of dealer for to play-->
+        <div id="dealer-box">
+            <h3>Dealer: <span id="dealer-blackjack-result">0</span></h3>
+        </div>
+    
+        <div id="blackjack-row-1">
+            <button class="blackjack-btn-hit">Hit</button>
+            <button class="blackjack-btn-stand">Stand</button>
+            <button class="blackjack-btn-deal">Deal</button>
+        </div>
+    
+        <div class="blackjack-row-2">
+            <table>
+                <tr>
+                    <td>Wins</td>
+                    <td>Losses</td>
+                    <td>Draws</td>
+                </tr>
+    
+                <tr>
+                    <td id="wins">0</td>
+                    <td id="losses">0</td>
+                    <td id="draws">0</td>
+                </tr>
+            </table>
+        </div>
+    
+    </div>
+
+    <script src="../public/Main.js">
+                //Arrays who's charge of datas you and dealer, cards, cardsmap, wins, losses...
+    </script>
+</body>
+</html>

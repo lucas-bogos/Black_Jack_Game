@@ -1,0 +1,184 @@
+/*Settings all*/
+*{margin: 0; padding: 0;}
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#blackjack_result {
+    width: 1054px;
+    height: 30px;
+    font-size: 2.5pc;
+    position: relative;
+    color: rgb(0,0,0);
+    top: 68px;
+    left: 599px;
+    z-index: 1;
+}
+h1 {
+    font: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6pc;
+    font-style: normal;
+    border: 1px solid #ffffff;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    position: absolute;
+    font-size: 1.6pc;
+    top: 0;
+    justify-content: center;
+}
+
+span {
+    position: relative;
+    color: white;
+}
+/*Spacegame*/
+#your-box {
+    top: 120px;
+    width: 49.5%;
+    min-height: 60%;
+    max-height: 60%;
+    height: 60%;
+    margin: 0px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding: 3px;
+    align-items: center;
+    background-color: rgb(1, 20, 4);
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-shadow: 0px 2.1px 3.2px 0px rgb(0,0,0);
+}
+
+
+img {
+    padding:20px;
+    margin-top: 18px;
+    position: relative;
+    display: flex;
+    max-width: 70px;
+    height: auto;
+    padding: 4.8px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    object-fit: scale-down;
+}
+
+#dealer-box {
+    top: 58.5px;
+    width: 49.4%;
+    min-height: 60%;
+    height: 60%;
+    max-height:60%;
+    background-color: greenyellow;
+    margin-top: 0;
+    margin-left: 50%;
+    position: relative;
+    border: 1px solid #ffffff;
+    padding: 3px;
+    color: blanchedalmond;
+    background-color: #46684c;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Constrution of buttons*/
+.blackjack-btn-hit {
+    margin-top: 2px;
+    margin-left: 42.2%;
+    padding: 10px 18px 10px 18px;
+    background-color: #3b080b;
+    color: #ffffff;
+    top: 0;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.blackjack-btn-hit:hover {
+    border: 1.5px solid  rgb(223, 59, 54);
+    background-color:  #721b21;
+    transition-delay: 100ms;
+}
+
+.blackjack-btn-stand {
+    margin-top: 10px;
+    padding: 10px 18px 10px 18px;
+    background-color: rgb(80, 79, 9);
+    color: #ffffff;
+    top: 0;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.blackjack-btn-stand:hover {
+    border: 1.5px solid rgb(223, 59, 54);
+    background-color:   rgb(121, 119, 23);
+    transition-delay: 100ms;
+}
+
+.blackjack-btn-deal {
+    margin-top: 10px;
+    padding: 10px 18px 10px 18px;
+    background-color: rgb(3, 3, 68);
+    color: #ffffff;
+    top: 0;
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.blackjack-btn-deal:hover {
+    border: 1.5px solid  rgb(223, 59, 54);
+    background-color: rgb(25, 25, 117);
+    transition-delay: 100ms;
+}
+
+#blackjack-row-1 {
+    position: relative;
+    width: 100%;
+    object-position: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    top: 60px;
+}
+
+#blackjack-row-2 {
+    position: absolute;
+    width: 800px;
+    left: 24.3%;
+}
+
+/*Table*/
+table {
+    margin-top: 5px;
+    margin-left: 43.5%;
+    top: 60px;
+    position: relative;
+    background-color:  rgb(223, 59, 54);
+}
+
+td, tr {
+    border: 1px solid black;
+    padding: 5px;
+    color: #ffffff;
+    background-color: black;
+}
