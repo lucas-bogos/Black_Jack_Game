@@ -9,3 +9,6 @@ maximum to 21 or smaller.
 We have the files as images, sounds, .css, .js and also html, with all, for run the game only click in
 index.html. If you want do some settings on game, you can to open the file .html or .js with IDLE and 
 follow at anotations that have there.
+
+Test with the link below:
+https://lucas-bogos.github.io/Black_Jack_Game/BlackJack1.1/public/Index.html
