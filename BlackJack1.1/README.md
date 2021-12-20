@@ -11,4 +11,4 @@ index.html. If you want do some settings on game, you can to open the file .html
 follow at anotations that have there.
 
 Play yourself:
-https://lucas-bogos.github.io/Black_Jack_Game/BlackJack1.1/public/Index.html
+https://lucas-bogos.github.io/black-jack-game/BlackJack1.1/public/Index.html
